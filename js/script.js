@@ -282,7 +282,7 @@ function generateTags(){
     allTagsData.tags.push({  
       tag: tag,
       count: allTags[tag],
-      className: 'tag-size-' + calculateTagClass(allTags[tag], tagsParams)
+      className: calculateTagClass(allTags[tag], tagsParams)
     });  
     /* [DONE] [NEW] END LOOP: for each tag in allTags: */
   }
